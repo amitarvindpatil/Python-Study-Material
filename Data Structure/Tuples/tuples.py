@@ -1,4 +1,5 @@
 # Tuples Creation
+# Tuples are collection of iterables which order and unchangables
 # Note - Tuple are immutuability - we cannot do append,pop and modify the tuples
 
 tuple_data = (10, "Amit", "Arvind", "patil")

@@ -5,13 +5,13 @@
 # Example
 
 
-def check_even(num):
-    return num % 2 == 0
+# def check_even(num):
+#     return num % 2 == 0
 
 
-num = [0, 3, 2, 4, 5, 2, 6, 7, 34, 23, 5, 78, 32, 2, 1, 1, 0]
-filter_even = filter(check_even, num)
-print(list(filter_even))
+# num = [0, 3, 2, 4, 5, 2, 6, 7, 34, 23, 5, 78, 32, 2, 1, 1, 0]
+# filter_even = filter(check_even, num)
+# print(list(filter_even))
 
 # Example 2
 

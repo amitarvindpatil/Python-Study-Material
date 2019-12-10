@@ -1,6 +1,7 @@
 # --------------Map Built in Functions
 # The map function allows you to "map" a function to an iterable object.
-#  That is to say you can quickly call the same function to every item in an iterable, such as a list
+# map() function returns a list of the results after applying the given function 
+# to each item of a given iterable (list, tuple etc.)
 
 # Example -1
 

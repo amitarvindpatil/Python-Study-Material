@@ -1,4 +1,5 @@
 # Sets data elements are uniquely represent in unorder data.
+# set is a collection which is unorder and unindexed.
 # Mention in {}
 # Creating Sets
 data_set = [1, 10, 10, 2, 3, 4, 4, 5, 1]
@@ -49,7 +50,7 @@ set1.update(set2)
 print("using update() method:-", set1)
 
 # copy()
-x= set1.copy()
+x = set1.copy()
 print("using copy() method:-", x)
 
 
