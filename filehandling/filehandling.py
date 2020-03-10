@@ -1,39 +1,55 @@
-# File Handling Mean create,append,read,write the file
-# "r" -> Read
-# "x" -> create
-# "a" -> append
-# "w" -> write
+# # # File Handling Mean create,append,read,write the file
+# # # "r" -> Read
+# # # "x" -> create
+# # # "a" -> append
+# # # "w" -> write
 
-# create a file
-# f = open("myfile.txt","x")
+# # # create a file
+# # import os
+# # f = open("myfile.txt", "x")
 
-# write a file
-import os
-f = open("myfile.txt", 'a')
-f.write("Now the file has more contentssssssssssssssssss!")
-f.close()
-
-# read data of the file
-f = open("myfile.txt", 'r')
-print(f.read())
+# # write a file
+# # fs = open("mydata.txt", 'a')
 
 
-f = open("myfile.txt", 'w')
-f.write("Now the file has more asdasd!")
-f.close()
-
-# read data of the file
-f = open("myfile.txt", 'r')
-print(f.read())
+# # def append_data(f):
+# #     f.write("Now the file has more contentssssssssssssssssss!")
+# #     f.close()
 
 
-# Delete file
+# # append_data(fs)
+
+# # # read data of the file
+# # fs = open("mydata.txt", 'r')
+
+
+# # def read_data(f):
+# #     print(f.read())
+
+
+# # read_data(fs)
+
+# # fs = open("mydata.txt", 'w')
+
+
+# # def write_data(f):
+# #     f.write("Now the file has more asdasd!")
+# #     f.close()
+
+
+# # write_data(fs)
+
+
+# # # Delete file
+# # import os
+# # f.close()
+# # os.remove("myfile.txt")
+
+# # # check if file exists
+# # if os.path.exists("myfils.txt"):
+# #     os.remove("myfils.txt")
+# # else:
+# #     print("file not found")
+
 # import os
-f.close()
-os.remove("myfile.txt")
-
-# check if file exists
-if os.path.exists("myfils.txt"):
-    os.remove("myfils.txt")
-else:
-    print("file not found")
+# os.rename("mydata.txt", 'yourdata.txt')
