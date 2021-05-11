@@ -82,3 +82,14 @@ print("Popitem method():-", dict_data1)
 
 # for x,y in dict_data1.items():
 #     print("return the item only:-", x,y)
+
+#  Json to dict and dict to json conversion
+
+import json
+dict_data = {'id': 10, "Name": "Amit Patil", 
+             "city": "Sangli", "State": "Maharashtra" ,'Address' :{'Flat':'08','Street':'Balaji'}}
+
+data = json.dumps(dict_data)
+op = json.loads(data)
+print(type(op))
+
